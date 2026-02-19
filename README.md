@@ -109,30 +109,6 @@ Best model can be highlighted manually after comparison results.
 
 ---
 
-## 🏆 LaTeX Table Template (Paper Ready)
-
-Use this in your paper:
-
-```latex
-\begin{table}[h]
-\centering
-\caption{6-Class MI EEG Classification Performance}
-\begin{tabular}{lccc}
-\hline
-Model & Accuracy & Macro-F1 & Test Loss \\
-\hline
-EEGNet v2 & XX.XX & XX.XX & XX.XX \\
-ShallowConvNet & XX.XX & XX.XX & XX.XX \\
-TCN & XX.XX & XX.XX & XX.XX \\
-\hline
-\end{tabular}
-\end{table}
-```
-
-Replace values using `result_compare/comparison.csv`.
-
----
-
 ## Discussion
 
 - EEGNet emphasizes spatial filtering efficiency.
