@@ -1,0 +1,40 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# -----------------------
+# Virtual environment
+# -----------------------
+venv/
+.env/
+*.env
+
+# -----------------------
+# Dataset (do NOT upload raw data)
+# -----------------------
+data/
+
+# -----------------------
+# Model weights (large files)
+# -----------------------
+*.pt
+*.pth
+
+# -----------------------
+# Metrics / logs (optional exclude)
+# -----------------------
+result_eegnet_v2/metrics.json
+result_shallowconvnet/metrics.json
+result_tcn/metrics.json
+result_compare/comparison.json
+result_compare/comparison.csv
+
+# -----------------------
+# If you later add tensorboard
+# -----------------------
+runs/
